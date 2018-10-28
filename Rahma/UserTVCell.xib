@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GEBold.otf">
+            <string>GESSTextBold-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UserTVCell" id="tLD-ed-OQs" customClass="UserTVCell" customModule="Rahma" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tLD-ed-OQs" id="RSF-27-cAZ">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="D6K-TN-UOp">
+                        <rect key="frame" x="16" y="8" width="318" height="83"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Panda" translatesAutoresizingMaskIntoConstraints="NO" id="on5-CQ-goF">
+                                <rect key="frame" x="0.0" y="0.0" width="83" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="on5-CQ-goF" secondAttribute="height" multiplier="1:1" id="REh-Vl-f43"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isCircled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="777-54-BmB">
+                                <rect key="frame" x="91" y="0.0" width="227" height="83"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amr Mohamed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edv-15-RJr">
+                                        <rect key="frame" x="0.0" y="0.0" width="227" height="42"/>
+                                        <fontDescription key="fontDescription" name="GESSTextBold-Bold" family="GE SS" pointSize="18"/>
+                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqk-SM-Gha">
+                                        <rect key="frame" x="0.0" y="42" width="227" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="D6K-TN-UOp" secondAttribute="trailing" id="50w-yX-0V4"/>
+                    <constraint firstItem="D6K-TN-UOp" firstAttribute="leading" secondItem="RSF-27-cAZ" secondAttribute="leadingMargin" constant="8" id="CIG-AC-EZV"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="D6K-TN-UOp" secondAttribute="bottom" id="lar-ux-v5M"/>
+                    <constraint firstItem="D6K-TN-UOp" firstAttribute="top" secondItem="RSF-27-cAZ" secondAttribute="topMargin" id="pUF-z0-8oU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressTextLabel" destination="Cqk-SM-Gha" id="ULA-YI-yOU"/>
+                <outlet property="nameTextLabel" destination="edv-15-RJr" id="nSN-Va-23b"/>
+                <outlet property="userImageView" destination="on5-CQ-goF" id="4tT-S3-tBx"/>
+            </connections>
+            <point key="canvasLocation" x="-21.5" y="12"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Panda" width="300" height="300"/>
+    </resources>
+</document>

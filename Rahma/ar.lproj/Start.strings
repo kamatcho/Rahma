@@ -1,0 +1,164 @@
+
+/* Class = "UIButton"; normalTitle = "Register Account"; ObjectID = "0Yw-06-xM6"; */
+"0Yw-06-xM6.normalTitle" = "إنشاء حساب";
+
+/* Class = "UIButton"; normalTitle = "Service Type"; ObjectID = "0qx-2d-hdA"; */
+"0qx-2d-hdA.normalTitle" = "نوع الخدمة";
+
+/* Class = "UINavigationItem"; title = "Treatment Center"; ObjectID = "12A-1i-LMu"; */
+"12A-1i-LMu.title" = "مركز علاج";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "1HK-qX-ZZ0"; */
+"1HK-qX-ZZ0.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Reset Password"; ObjectID = "2KJ-ls-CaI"; */
+"2KJ-ls-CaI.title" = "إعادة تعين كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Country"; ObjectID = "5ni-yw-mIw"; */
+"5ni-yw-mIw.normalTitle" = "الدولة";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "74Y-nl-hAh"; */
+"74Y-nl-hAh.placeholder" = "رقم الجوال";
+
+/* Class = "UIButton"; normalTitle = "Country"; ObjectID = "7Bs-2T-UHD"; */
+"7Bs-2T-UHD.normalTitle" = "الدولة";
+
+/* Class = "UITextField"; placeholder = "Center Name"; ObjectID = "91W-hh-5hE"; */
+"91W-hh-5hE.placeholder" = "إسم المركز";
+
+/* Class = "UIBarButtonItem"; title = "   "; ObjectID = "9HP-3e-PtS"; */
+"9HP-3e-PtS.title" = "   ";
+
+/* Class = "UIButton"; normalTitle = "Forgot password ?"; ObjectID = "DOW-1Y-cpB"; */
+"DOW-1Y-cpB.normalTitle" = "نسيت كلمة المرور ؟";
+
+/* Class = "UIButton"; normalTitle = "Gender"; ObjectID = "FFl-xB-hqC"; */
+"FFl-xB-hqC.normalTitle" = "الجنس";
+
+/* Class = "UITextField"; placeholder = "Civil Registry"; ObjectID = "GEk-mw-qYF"; */
+"GEk-mw-qYF.placeholder" = "السجل المدني";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Gnb-ck-Dei"; */
+"Gnb-ck-Dei.text" = "التفاصيل";
+
+/* Class = "UITextField"; placeholder = "E-Mail"; ObjectID = "H1o-YF-gq6"; */
+"H1o-YF-gq6.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UINavigationItem"; title = "Service Providers"; ObjectID = "HhF-dQ-5gr"; */
+"HhF-dQ-5gr.title" = "مقدم خدمة";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "HsD-TX-ZxR"; */
+"HsD-TX-ZxR.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Register New Account"; ObjectID = "INh-EY-smN"; */
+"INh-EY-smN.title" = "إنشاء حساب جديد";
+
+/* Class = "UIButton"; normalTitle = "Gender"; ObjectID = "IU7-6X-dJj"; */
+"IU7-6X-dJj.normalTitle" = "الجنس";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "LCa-ll-Tlg"; */
+"LCa-ll-Tlg.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Register Account"; ObjectID = "MfV-U3-gLa"; */
+"MfV-U3-gLa.normalTitle" = "إنشاء حساب";
+
+/* Class = "UITextField"; placeholder = "Website"; ObjectID = "Q18-ad-tu3"; */
+"Q18-ad-tu3.placeholder" = "موقع إلكتروني";
+
+/* Class = "UITextField"; placeholder = "Age"; ObjectID = "QoL-yh-kSN"; */
+"QoL-yh-kSN.placeholder" = "العمر";
+
+/* Class = "UIButton"; normalTitle = "Add Photo"; ObjectID = "REs-WJ-KVP"; */
+"REs-WJ-KVP.normalTitle" = "أضف صورة";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "UVR-eb-Lpo"; */
+"UVR-eb-Lpo.normalTitle" = "إنشاء حساب";
+
+/* Class = "UIButton"; normalTitle = "Center Type"; ObjectID = "UoK-fS-WKe"; */
+"UoK-fS-WKe.normalTitle" = "نوع المركز";
+
+/* Class = "UILabel"; text = "Register as a Service Provider"; ObjectID = "UoV-5c-eET"; */
+"UoV-5c-eET.text" = "تسجيل مقدم خدمة";
+
+/* Class = "UITextField"; placeholder = "E-Mail"; ObjectID = "WbA-0k-i5a"; */
+"WbA-0k-i5a.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Wz5-VS-gx8"; */
+"Wz5-VS-gx8.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UIButton"; normalTitle = "Country"; ObjectID = "XVn-3O-MgK"; */
+"XVn-3O-MgK.normalTitle" = "الدولة";
+
+/* Class = "UITextField"; placeholder = "E-Mail"; ObjectID = "cSy-jq-OgQ"; */
+"cSy-jq-OgQ.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UILabel"; text = "Register as a Treatmnet Center"; ObjectID = "cbB-G9-tlt"; */
+"cbB-G9-tlt.text" = "تسجيل مركز علاج";
+
+/* Class = "UIButton"; normalTitle = "Add Photo"; ObjectID = "cpA-N3-uwo"; */
+"cpA-N3-uwo.normalTitle" = "أضف صورة";
+
+/* Class = "UILabel"; text = "New password will be sent to your email to verify reseting your password"; ObjectID = "dA8-c8-1dM"; */
+"dA8-c8-1dM.text" = "سيتم إرسال كلمة مرور جديدة إالي بريدك الإلكتروني لتأكيد عملية إعادة تعين كلمة المرور";
+
+/* Class = "UINavigationItem"; title = "Patient Account"; ObjectID = "dXp-Su-2BR"; */
+"dXp-Su-2BR.title" = "حساب مريض";
+
+/* Class = "UILabel"; text = "Register as a Patient"; ObjectID = "dvn-NA-hk8"; */
+"dvn-NA-hk8.text" = "تسجيل مريض";
+
+/* Class = "UITextField"; placeholder = "Address"; ObjectID = "egd-XS-WEd"; */
+"egd-XS-WEd.placeholder" = "العنوان";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "eke-DO-Iwd"; */
+"eke-DO-Iwd.placeholder" = "كلمة المرور";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "g5N-C1-Egy"; */
+"g5N-C1-Egy.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Civil Registry"; ObjectID = "h0s-uh-mZ0"; */
+"h0s-uh-mZ0.placeholder" = "السجل المدني";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "hrL-aE-qIy"; */
+"hrL-aE-qIy.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UITextField"; placeholder = "Mobile No."; ObjectID = "ihN-yN-MWM"; */
+"ihN-yN-MWM.placeholder" = "رقم الجوال";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "jhA-Ud-qKq"; */
+"jhA-Ud-qKq.placeholder" = "الإسم بالكامل";
+
+/* Class = "UIButton"; normalTitle = "Medication Type"; ObjectID = "pfz-je-2jH"; */
+"pfz-je-2jH.normalTitle" = "نوع المعالج";
+
+/* Class = "UINavigationItem"; title = "Countries"; ObjectID = "qcl-EI-lIB"; */
+"qcl-EI-lIB.title" = "الدول";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "quA-WE-1sF"; */
+"quA-WE-1sF.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Register Account"; ObjectID = "ri0-g7-7m6"; */
+"ri0-g7-7m6.normalTitle" = "إنشاء حساب";
+
+/* Class = "UIButton"; normalTitle = "Add Photo"; ObjectID = "t3L-ox-Fr5"; */
+"t3L-ox-Fr5.normalTitle" = "أضف صورة";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "tPT-A7-QWv"; */
+"tPT-A7-QWv.placeholder" = "الإسم بالكامل";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "tgd-4K-CDe"; */
+"tgd-4K-CDe.placeholder" = "رقم الجوال";
+
+/* Class = "UITextField"; placeholder = "Car Type - if you have one"; ObjectID = "wMR-ZX-mTZ"; */
+"wMR-ZX-mTZ.placeholder" = "نوع السيارة إن كنت تمتلك سيارة";
+
+/* Class = "UIButton"; normalTitle = "Don't have an account ?"; ObjectID = "xca-Ho-ysQ"; */
+"xca-Ho-ysQ.normalTitle" = "ليس لديك حساب";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "yMq-o0-gYE"; */
+"yMq-o0-gYE.placeholder" = "كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Reset Password"; ObjectID = "zmK-wb-qyZ"; */
+"zmK-wb-qyZ.normalTitle" = "إعادة تعين كلمة المرور";
+
+"iA9-BZ-iaQ.placeholder" = "المدينة";

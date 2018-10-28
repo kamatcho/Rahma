@@ -1,0 +1,360 @@
+
+/* Class = "UINavigationItem"; title = "Add Your Experience"; ObjectID = "0xB-CB-umh"; */
+"0xB-CB-umh.title" = "أضف تجربتك";
+
+/* Class = "UISegmentedControl"; 1Yb-0W-18D.segmentTitles[0] = "Donation"; ObjectID = "1Yb-0W-18D"; */
+"1Yb-0W-18D.segmentTitles[0]" = "للتبرع";
+
+/* Class = "UISegmentedControl"; 1Yb-0W-18D.segmentTitles[1] = "Sale"; ObjectID = "1Yb-0W-18D"; */
+"1Yb-0W-18D.segmentTitles[1]" = "للبيع";
+
+/* Class = "UISegmentedControl"; 1Yb-0W-18D.segmentTitles[2] = "Rent"; ObjectID = "1Yb-0W-18D"; */
+"1Yb-0W-18D.segmentTitles[2]" = "للتأجير";
+
+/* Class = "UISegmentedControl"; 293-bV-qCT.segmentTitles[0] = "Governments"; ObjectID = "293-bV-qCT"; */
+"293-bV-qCT.segmentTitles[0]" = "الحكومية";
+
+/* Class = "UISegmentedControl"; 293-bV-qCT.segmentTitles[1] = "Privates"; ObjectID = "293-bV-qCT"; */
+"293-bV-qCT.segmentTitles[1]" = "الخاصة";
+
+/* Class = "UISegmentedControl"; 293-bV-qCT.segmentTitles[2] = "Centers"; ObjectID = "293-bV-qCT"; */
+"293-bV-qCT.segmentTitles[2]" = "المراكز";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "2I4-K1-awA"; */
+"2I4-K1-awA.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Device Description"; ObjectID = "2Qs-RZ-hjR"; */
+"2Qs-RZ-hjR.placeholder" = "وصف الجهاز";
+
+/* Class = "UILabel"; text = "Hospitals"; ObjectID = "4JK-30-nJN"; */
+"4JK-30-nJN.text" = "المستشفيات";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "4iH-IO-cUL"; */
+"4iH-IO-cUL.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Egypt"; ObjectID = "5Op-BH-Ple"; */
+"5Op-BH-Ple.title" = "مصر";
+
+/* Class = "UITabBarItem"; title = "Devices"; ObjectID = "5c0-sV-lIW"; */
+"5c0-sV-lIW.title" = "الأجهزة";
+
+/* Class = "UINavigationItem"; title = "Ask a Question"; ObjectID = "5zj-qi-TBH"; */
+"5zj-qi-TBH.title" = "أضف سؤالاً";
+
+/* Class = "UISegmentedControl"; 7dD-UN-T9C.segmentTitles[0] = "Enquiries"; ObjectID = "7dD-UN-T9C"; */
+"7dD-UN-T9C.segmentTitles[0]" = "الإستفسارات";
+
+/* Class = "UISegmentedControl"; 7dD-UN-T9C.segmentTitles[1] = "Experiences"; ObjectID = "7dD-UN-T9C"; */
+"7dD-UN-T9C.segmentTitles[1]" = "التجارب";
+
+/* Class = "UIButton"; normalTitle = "Country"; ObjectID = "7wT-0g-mhG"; */
+"7wT-0g-mhG.normalTitle" = "الدولة";
+
+/* Class = "UILabel"; text = "Add Experience"; ObjectID = "7z8-Fn-GtN"; */
+"7z8-Fn-GtN.text" = "أضف خبرتك";
+
+/* Class = "UILabel"; text = "Sell or donate your Devices in our App"; ObjectID = "9L3-Pd-lBJ"; */
+"9L3-Pd-lBJ.text" = "بيع أو تبرع بأجهزتك علي التطبيق";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "9Tu-li-Akw"; */
+"9Tu-li-Akw.normalTitle" = "أضف";
+
+/* Class = "UINavigationItem"; title = "About Us"; ObjectID = "Aay-Pa-YDn"; */
+"Aay-Pa-YDn.title" = "من نحن";
+
+/* Class = "UILabel"; text = "Follow us on Instagram"; ObjectID = "B7k-Y2-aBP"; */
+"B7k-Y2-aBP.text" = "تابعنا علي إنستاجرام";
+
+/* Class = "UILabel"; text = "Follow us on Google Plus"; ObjectID = "HBc-Ws-8V5"; */
+"HBc-Ws-8V5.text" = "تابعنا علي جوجل بلس";
+
+/* Class = "UIButton"; normalTitle = "Hospital Type"; ObjectID = "IgX-d1-Gcv"; */
+"IgX-d1-Gcv.normalTitle" = "نوع المركز";
+
+/* Class = "UINavigationItem"; title = "Faqs"; ObjectID = "Ioh-fD-c9r"; */
+"Ioh-fD-c9r.title" = "الإستفسارات";
+
+/* Class = "UILabel"; text = "El Rahma Hospital"; ObjectID = "J2M-tA-g3i"; */
+"J2M-tA-g3i.text" = "";
+
+/* Class = "UILabel"; text = "Add Hospital"; ObjectID = "JLC-7F-wmf"; */
+"JLC-7F-wmf.text" = "أضف مستشفي";
+
+/* Class = "UIButton"; normalTitle = "Add Photo"; ObjectID = "Kqx-BT-bbZ"; */
+"Kqx-BT-bbZ.normalTitle" = "أضف صورة";
+
+/* Class = "UILabel"; text = "Tell us about your experience with our app"; ObjectID = "LxO-Nc-2qR"; */
+"LxO-Nc-2qR.text" = "أخبرنا عن تجربتك مع التطبيق";
+
+/* Class = "UIButton"; normalTitle = "Add Hospital"; ObjectID = "Nes-6p-WnT"; */
+"Nes-6p-WnT.normalTitle" = "أضف مستشفي";
+
+/* Class = "UILabel"; text = "Like us on Facebook"; ObjectID = "OZv-dl-M2i"; */
+"OZv-dl-M2i.text" = "تابعنا علي فيس بوك";
+
+/* Class = "UILabel"; text = "Watch us on Youtube"; ObjectID = "P6a-Qp-bkg"; */
+"P6a-Qp-bkg.text" = "شاهدنا علي يوتيوب";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "QAF-s9-W0v"; */
+"QAF-s9-W0v.title" = " ";
+
+/* Class = "UILabel"; text = "http://iamrmohamed.com/"; ObjectID = "RnM-Sv-6GB"; */
+"RnM-Sv-6GB.text" = "http://iamrmohamed.com/";
+
+/* Class = "UINavigationItem"; title = "Devices Department"; ObjectID = "S0Q-Sm-HyO"; */
+"S0Q-Sm-HyO.title" = "قسم الأجهزة";
+
+/* Class = "UITextField"; placeholder = "Mobile No."; ObjectID = "Si8-gX-evu"; */
+"Si8-gX-evu.placeholder" = "رقم الجوال";
+
+/* Class = "UIButton"; normalTitle = "Add Device"; ObjectID = "TaF-Ex-A7w"; */
+"TaF-Ex-A7w.normalTitle" = "أضف مستلزمات طبية";
+
+/* Class = "UILabel"; text = "Chat with us on WhatsApp"; ObjectID = "V9r-UR-55I"; */
+"V9r-UR-55I.text" = "راسلنا علي واتساب";
+
+/* Class = "UILabel"; text = "Contact Us"; ObjectID = "WcO-0n-uFU"; */
+"WcO-0n-uFU.text" = "راسلنا";
+
+/* Class = "UITabBarItem"; title = "Therapy"; ObjectID = "ZE7-4a-adS"; */
+"ZE7-4a-adS.title" = "العلاج";
+
+/* Class = "UINavigationItem"; title = "Amr Mohamed"; ObjectID = "ZID-nc-ptw"; */
+"ZID-nc-ptw.title" = "Amr Mohamed";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "aua-9r-ViQ"; */
+"aua-9r-ViQ.placeholder" = "الإسم";
+
+/* Class = "UILabel"; text = "Hospitals"; ObjectID = "cwG-Tv-UKU"; */
+"cwG-Tv-UKU.text" = "المستشفيات";
+
+/* Class = "UITextField"; placeholder = "Website"; ObjectID = "dIo-S4-5ag"; */
+"dIo-S4-5ag.placeholder" = "الموقع الإلكتروني";
+
+/* Class = "UINavigationItem"; title = "Therapy Department"; ObjectID = "dTb-VN-IGm"; */
+"dTb-VN-IGm.title" = "قسم العلاج";
+
+/* Class = "UILabel"; text = "Ask Question"; ObjectID = "enV-8F-baf"; */
+"enV-8F-baf.text" = "أضف سؤالاً";
+
+/* Class = "UIBarButtonItem"; title = "  "; ObjectID = "eqo-1j-dHc"; */
+"eqo-1j-dHc.title" = "  ";
+
+/* Class = "UITextField"; placeholder = "Device Price + Currency"; ObjectID = "grt-aU-5di"; */
+"grt-aU-5di.placeholder" = "سعر الجهاز + العملة";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "hx3-nE-lJp"; */
+"hx3-nE-lJp.title" = " ";
+
+/* Class = "UITabBarItem"; title = "Enquiries"; ObjectID = "ig4-Yu-xSz"; */
+"ig4-Yu-xSz.title" = "الإستفسارات";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "j5M-3W-zsO"; */
+"j5M-3W-zsO.title" = " ";
+
+/* Class = "UILabel"; text = "Follow us on Twitter"; ObjectID = "jDA-Xt-EbT"; */
+"jDA-Xt-EbT.text" = "تابعنا علي تويتر";
+
+/* Class = "UILabel"; text = "Add Device"; ObjectID = "jEj-sk-RuQ"; */
+"jEj-sk-RuQ.text" = "أضف مستلزمات طبية";
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "jbr-49-vct"; */
+"jbr-49-vct.text" = "تسجيل الخروج";
+
+/* Class = "UILabel"; text = "Tell us about Hospitals that we don't know"; ObjectID = "lD2-Km-aQ7"; */
+"lD2-Km-aQ7.text" = "أخبرنا عن المستشفيات التي لا نعرفها";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "lLp-48-LdN"; */
+"lLp-48-LdN.title" = " ";
+
+/* Class = "UILabel"; text = "You have a question about the app ?"; ObjectID = "naE-Dm-CAC"; */
+"naE-Dm-CAC.text" = "هل لديك سؤالاً عن التطبيق";
+
+/* Class = "UILabel"; text = "iAmrMohamed@gmail.com"; ObjectID = "niK-Q8-by2"; */
+"niK-Q8-by2.text" = "iAmrMohamed@gmail.com";
+
+/* Class = "UITextField"; placeholder = "E-Mail"; ObjectID = "ovf-Zq-nmF"; */
+"ovf-Zq-nmF.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UILabel"; text = "00201004676701"; ObjectID = "qXd-DQ-9ta"; */
+"qXd-DQ-9ta.text" = "00201004676701";
+
+/* Class = "UILabel"; text = "Nasr City, Cairo, Egypt"; ObjectID = "sDO-SS-sDP"; */
+"sDO-SS-sDP.text" = "Nasr City, Cairo, Egypt";
+
+/* Class = "UIButton"; normalTitle = "add image"; ObjectID = "sbB-d6-nua"; */
+"sbB-d6-nua.normalTitle" = "أضف صورة";
+
+/* Class = "UITextField"; placeholder = "Address"; ObjectID = "tt6-Qa-Xsb"; */
+"tt6-Qa-Xsb.placeholder" = "العنوان";
+
+/* Class = "UINavigationItem"; title = "Add New Device"; ObjectID = "uZX-X3-HMt"; */
+"uZX-X3-HMt.title" = "أضف مستلزمات طبية";
+
+/* Class = "UINavigationItem"; title = "Add New Hospital"; ObjectID = "vfi-hh-Krs"; */
+"vfi-hh-Krs.title" = "أضف مستشفي جديد";
+
+/* Class = "UINavigationItem"; title = "El Rahma Hospital"; ObjectID = "wxq-6p-QDo"; */
+"wxq-6p-QDo.title" = "";
+
+/* Class = "UIButton"; normalTitle = "Ask"; ObjectID = "x6g-cL-oDR"; */
+"x6g-cL-oDR.normalTitle" = "إسئل";
+
+/* Class = "UISegmentedControl"; y1x-av-slr.segmentTitles[0] = "Donation"; ObjectID = "y1x-av-slr"; */
+"y1x-av-slr.segmentTitles[0]" = "للتبرع";
+
+/* Class = "UISegmentedControl"; y1x-av-slr.segmentTitles[1] = "Sale"; ObjectID = "y1x-av-slr"; */
+"y1x-av-slr.segmentTitles[1]" = "للبيع";
+
+/* Class = "UISegmentedControl"; y1x-av-slr.segmentTitles[2] = "Rent"; ObjectID = "y1x-av-slr"; */
+"y1x-av-slr.segmentTitles[2]" = "للتأجير";
+
+/* Class = "UINavigationItem"; title = "Requests Department"; ObjectID = "yDJ-L6-2e3"; */
+"yDJ-L6-2e3.title" = "قسم الطلبات";
+
+/* Class = "UIButton"; normalTitle = "Add Device Image"; ObjectID = "yDx-TD-03X"; */
+"yDx-TD-03X.normalTitle" = "أضف صورة للجهاز";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "yb9-Ro-Jcf"; */
+"yb9-Ro-Jcf.title" = "حسابي";
+
+/* Class = "UITabBarItem"; title = "Requests"; ObjectID = "ycr-PD-dgx"; */
+"ycr-PD-dgx.title" = "الطلبات";
+
+"10g-CT-TP2.title" = "لغة التطبيق";
+"fUj-Wb-HvC.text" = "لغة التطبيق";
+
+"ig4-Yu-xSz.title" = "التجارب";
+"zVI-UQ-6iB.text" = "الإستفسارات";
+"tes-jF-PhU.title" = "الإستفسارات";
+
+"aLZ-3D-I8W.text" = "أضف أماكن";
+
+"8ap-jK-mCV.text" = "أخبرنا عن الأماكن الترفيهية المجهزة";
+
+"Hsa-Oj-U4r.text" = "أضف مطاعم";
+
+"yYo-1j-YR0.text" = "أخبرنا عن المطاعم الترفيهية المجهزة";
+
+"dkD-q5-ZcA.text" = "تحديث حالتك";
+
+"xya-nk-bcj.text" = "ضف أو قم بتحديث حالتك الحالية";
+
+"mAn-qH-ejT.title" = "تحديث حالتك";
+
+"0ZN-o1-Kha.placeholder" = "الحالة";
+
+"Ob6-q5-e50.normalTitle" = "تحديث";
+
+"48S-bQ-tvs.placeholder" = "المدينة";
+
+"a2t-II-WYh.title" = "تفاصيل البائع";
+
+
+
+
+"Fkj-Aw-s9F.placeholder" = "أضف مكان جديد";
+
+"pGa-dC-2yD.placeholder" = "الإسم";
+
+"049-pd-wU1.placeholder" = "رقم الإتصال";
+
+"wcL-EX-Evy.placeholder" = "العنوان";
+
+"akG-aR-xAb.placeholder" = "المدينة";
+
+"jBA-r5-iNo.normalTitle" = "الدولة";
+
+"KPo-f3-yy4.normalTitle" = "نوع المكان";
+
+"LAV-t3-iaQ.normalTitle" = "نوع الخدمة";
+
+
+
+
+"iwV-KT-W19.title" = "أضف مطعم جديد";
+
+"bKK-U4-zDr.placeholder" = "الإسم";
+
+"a0l-bL-An9.placeholder" = "رقم الإتصال";
+
+"cym-BA-l8x.placeholder" = "العنوان";
+
+"53K-Ka-MOL.placeholder" = "المدينة";
+
+"8oB-Dr-fCJ.normalTitle" = "الدولة";
+
+"IfV-II-jCO.normalTitle" = "نوع المطعم";
+
+"S32-wZ-63B.normalTitle" = "نوع الطلبات";
+
+"O4S-uL-bir.normalTitle" = "نوع الخدمة";
+
+
+"9SQ-pl-Tux.placeholder" = "الطبيب";
+
+"dSr-Ef-AFh.placeholder" = "المستشفي";
+
+
+
+"dyO-9y-uYw.placeholder" = "أدخل سؤالك هنا";
+
+"zTn-uh-Hai.placeholder" = "أدخل خبرتك هنا";
+
+"yw4-yg-TTT.normalTitle" = "أضف";
+
+"A3y-Vy-hmR.normalTitle" = "أضف";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+

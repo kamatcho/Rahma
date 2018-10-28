@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EnquiriesTVCell" id="wlb-Mg-mH1" customClass="EnquiriesTVCell" customModule="Rahma" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wlb-Mg-mH1" id="HKd-DM-9iF">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RPK-V9-qEf">
+                        <rect key="frame" x="8" y="8" width="359" height="83.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nHY-A2-3uE">
+                                <rect key="frame" x="8" y="8" width="343" height="67.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="What is Lorem Ipsum?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qq-T5-uoB">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="35"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum is simply" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAM-BI-SPC">
+                                        <rect key="frame" x="0.0" y="43" width="343" height="24.5"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                        <color key="textColor" red="0.15686274510000001" green="0.59999999999999998" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nHY-A2-3uE" firstAttribute="leading" secondItem="RPK-V9-qEf" secondAttribute="leadingMargin" id="FtT-mX-rR8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nHY-A2-3uE" secondAttribute="trailing" id="HBp-eh-EP3"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="nHY-A2-3uE" secondAttribute="bottom" id="gQa-AT-FQp"/>
+                            <constraint firstItem="nHY-A2-3uE" firstAttribute="top" secondItem="RPK-V9-qEf" secondAttribute="topMargin" id="xOH-wE-rXx"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="RPK-V9-qEf" secondAttribute="trailing" id="GIg-Iz-MdN"/>
+                    <constraint firstItem="RPK-V9-qEf" firstAttribute="top" secondItem="HKd-DM-9iF" secondAttribute="topMargin" id="gu5-vP-4mA"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="RPK-V9-qEf" secondAttribute="bottom" id="iLK-lN-fye"/>
+                    <constraint firstItem="RPK-V9-qEf" firstAttribute="leading" secondItem="HKd-DM-9iF" secondAttribute="leadingMargin" id="tXj-BZ-U0R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="bodyTextLabel" destination="AAM-BI-SPC" id="mgx-8S-xZz"/>
+                <outlet property="titleTextLabel" destination="4qq-T5-uoB" id="cGt-RJ-Mh4"/>
+            </connections>
+            <point key="canvasLocation" x="-16" y="62"/>
+        </tableViewCell>
+    </objects>
+</document>

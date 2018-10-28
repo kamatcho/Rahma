@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290618171E3A7E5800A9F1BE /* UpdateStatusTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290618161E3A7E5800A9F1BE /* UpdateStatusTVC.swift */; };
+		290EE8C41E2A730D00A3694E /* RequestsUsersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EE8C31E2A730D00A3694E /* RequestsUsersTVC.swift */; };
+		290EE8C61E2A734E00A3694E /* RequestsPlacesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EE8C51E2A734E00A3694E /* RequestsPlacesTVC.swift */; };
+		290EE8C81E2A864300A3694E /* UserTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EE8C71E2A864300A3694E /* UserTVCell.swift */; };
+		290EE8CA1E2A868400A3694E /* UserTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290EE8C91E2A868400A3694E /* UserTVCell.xib */; };
+		291BD3DD1E1E957600456809 /* CountriesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291BD3DC1E1E957600456809 /* CountriesTVC.swift */; };
+		29404C111E1DDEA5005870BB /* RegisterProviderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29404C101E1DDEA5005870BB /* RegisterProviderTVC.swift */; };
+		29404C131E1DDEF2005870BB /* RegisterCenterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29404C121E1DDEF2005870BB /* RegisterCenterTVC.swift */; };
+		296500821E1C071D00E20026 /* GEBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 296500811E1C071D00E20026 /* GEBold.otf */; };
+		296500841E1C539300E20026 /* APILists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296500831E1C539300E20026 /* APILists.swift */; };
+		2974F49A1E25986400514956 /* HospitalDetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974F4991E25986400514956 /* HospitalDetailTVC.swift */; };
+		297A036F1E282E0500F86178 /* ExperiencesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A036E1E282E0500F86178 /* ExperiencesTVC.swift */; };
+		297A03751E2831A700F86178 /* ExperienceTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 297A03741E2831A700F86178 /* ExperienceTVCell.xib */; };
+		297A03771E2831E300F86178 /* ExperienceTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A03761E2831E300F86178 /* ExperienceTVCell.swift */; };
+		297A03791E283B8F00F86178 /* AddExperienceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A03781E283B8F00F86178 /* AddExperienceTVC.swift */; };
+		297A037B1E28782800F86178 /* AddHospitalTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A037A1E28782800F86178 /* AddHospitalTVC.swift */; };
+		297A037D1E28783300F86178 /* AddDeviceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A037C1E28783300F86178 /* AddDeviceTVC.swift */; };
+		299198861E5FFC6D006B79F8 /* AddEventTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299198851E5FFC6D006B79F8 /* AddEventTVC.swift */; };
+		29AD18D21E3D4F31007EAF5C /* AddPlaceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD18D11E3D4F31007EAF5C /* AddPlaceTVC.swift */; };
+		29B4F53F1E5B342900005E7D /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B4F53E1E5B342900005E7D /* Launch.storyboard */; };
+		29B4F5421E5B3DE500005E7D /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B4F5411E5B3DE500005E7D /* Start.storyboard */; };
+		29B4F5451E5B5FC000005E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B4F5441E5B5FC000005E7D /* Main.storyboard */; };
+		29B83ADF1E1FF90E00F72547 /* HospitalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B83ADB1E1FF90E00F72547 /* HospitalsVC.swift */; };
+		29B83AE01E1FF90E00F72547 /* HospitalsPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B83ADC1E1FF90E00F72547 /* HospitalsPageVC.swift */; };
+		29B83AE11E1FF90E00F72547 /* HospitalsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B83ADD1E1FF90E00F72547 /* HospitalsTVC.swift */; };
+		29B83AE81E1FFDF900F72547 /* CountriesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B83AE71E1FFDF900F72547 /* CountriesCVC.swift */; };
+		29B83AEC1E20348400F72547 /* RequestsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B83AEB1E20348400F72547 /* RequestsCVC.swift */; };
+		29BBA7101E3D34080004E49B /* DeviceDetailsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA70F1E3D34080004E49B /* DeviceDetailsTVC.swift */; };
+		29BBA7121E3D4AFF0004E49B /* AddRestaurantTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBA7111E3D4AFF0004E49B /* AddRestaurantTVC.swift */; };
+		29BDF5AE1E1BF9F7001CF4B7 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29BDF5AD1E1BF9F7001CF4B7 /* Countries.plist */; };
+		29BF1C591E2BFCAE00A5A8C7 /* AddQuestionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BF1C581E2BFCAE00A5A8C7 /* AddQuestionTVC.swift */; };
+		29C874DC1E246E7D0091D354 /* EnquiriesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C874DB1E246E7D0091D354 /* EnquiriesTVC.swift */; };
+		29C874DE1E246FBC0091D354 /* EnquiriesTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C874DD1E246FBC0091D354 /* EnquiriesTVCell.swift */; };
+		29C874E01E24703A0091D354 /* EnquiriesTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C874DF1E24703A0091D354 /* EnquiriesTVCell.xib */; };
+		29C874E21E249BD10091D354 /* ProfileTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C874E11E249BD10091D354 /* ProfileTVC.swift */; };
+		29C874E51E24AAB40091D354 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C874E41E24AAB40091D354 /* StartVC.swift */; };
+		29D8DFB41E227E61006E0A83 /* DevicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8DFB31E227E61006E0A83 /* DevicesVC.swift */; };
+		29D8DFB61E227E9B006E0A83 /* DevicesPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8DFB51E227E9B006E0A83 /* DevicesPageVC.swift */; };
+		29D8DFBA1E227F03006E0A83 /* DevicesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8DFB91E227F03006E0A83 /* DevicesTVC.swift */; };
+		29D8DFC11E22B547006E0A83 /* HospitalTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8DFC01E22B546006E0A83 /* HospitalTVCell.xib */; };
+		29D8DFC41E22B59E006E0A83 /* HospitalTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8DFC31E22B59E006E0A83 /* HospitalTVCell.swift */; };
+		29D8DFC61E22B5E9006E0A83 /* DeviceTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8DFC51E22B5E9006E0A83 /* DeviceTVCell.swift */; };
+		29D8DFC81E22B659006E0A83 /* DeviceTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8DFC71E22B659006E0A83 /* DeviceTVCell.xib */; };
+		29D8DFCA1E22DC50006E0A83 /* Api.json in Resources */ = {isa = PBXBuildFile; fileRef = 29D8DFC91E22DC50006E0A83 /* Api.json */; };
+		29DC3AA51E1491AF0022DDB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3AA41E1491AF0022DDB7 /* AppDelegate.swift */; };
+		29DC3AB71E14925A0022DDB7 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3AB61E14925A0022DDB7 /* APIHelper.swift */; };
+		29DC3AB91E1492620022DDB7 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3AB81E1492620022DDB7 /* APIModels.swift */; };
+		29DC3AC21E1493100022DDB7 /* GELight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 29DC3AC11E1493100022DDB7 /* GELight.otf */; };
+		29DC3AC91E14932A0022DDB7 /* TypesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3AC31E14932A0022DDB7 /* TypesTVC.swift */; };
+		29DC3ACA1E14932A0022DDB7 /* ForgotPasswordTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3AC41E14932A0022DDB7 /* ForgotPasswordTVC.swift */; };
+		29DC3ACD1E14932A0022DDB7 /* RegisterPatientTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3AC71E14932A0022DDB7 /* RegisterPatientTVC.swift */; };
+		29DC3ACE1E14932A0022DDB7 /* LoginTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3AC81E14932A0022DDB7 /* LoginTVC.swift */; };
+		29DC3AD91E1493B20022DDB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DC3AD81E1493B20022DDB7 /* Assets.xcassets */; };
+		29DC3ADE1E1494360022DDB7 /* AMExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3ADB1E1494360022DDB7 /* AMExtensions.swift */; };
+		29DC3ADF1E1494360022DDB7 /* AMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3ADC1E1494360022DDB7 /* AMTabBarController.swift */; };
+		29DC3AE01E1494360022DDB7 /* AMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DC3ADD1E1494360022DDB7 /* AMTextField.swift */; };
+		29E18CC51E351FBA00C336B7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E18CC71E351FBA00C336B7 /* Localizable.strings */; };
+		29E18CC91E352D2600C336B7 /* LanguageTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E18CC81E352D2600C336B7 /* LanguageTVC.swift */; };
+		29ECE0951E5C608C00406F9F /* RegisterCompanyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECE0941E5C608C00406F9F /* RegisterCompanyTVC.swift */; };
+		29ECE0971E5C60CC00406F9F /* RegisterRestaurantTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECE0961E5C60CC00406F9F /* RegisterRestaurantTVC.swift */; };
+		29ECE0991E5C60F000406F9F /* RegisterPlaceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECE0981E5C60F000406F9F /* RegisterPlaceTVC.swift */; };
+		29ECE09B1E5C70FB00406F9F /* DatesPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECE09A1E5C70FB00406F9F /* DatesPickerVC.swift */; };
+		C445B7F1CD05D222626CAC43 /* Pods_Rahma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B8AFA89AAA09EA5CDBB29A /* Pods_Rahma.framework */; };
+		D911C3521E79B40200384544 /* SearchVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911C3511E79B40200384544 /* SearchVc.swift */; };
+		D911C3551E79B44000384544 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911C3531E79B44000384544 /* SearchCell.swift */; };
+		D911C3561E79B44000384544 /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D911C3541E79B44000384544 /* SearchCell.xib */; };
+		D911C3581E79C51F00384544 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D911C3571E79C51F00384544 /* SearchModel.swift */; };
+		D927D1281E65E7030050F4FE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D927D1271E65E7030050F4FE /* MessageUI.framework */; };
+		D97A29F41E72FD7D00F6A9AD /* RequestDriverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97A29F31E72FD7D00F6A9AD /* RequestDriverVC.swift */; };
+		D9DAE63F1E6E009E00B3CC21 /* RequestPationtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DAE63E1E6E009E00B3CC21 /* RequestPationtVC.swift */; };
+		D9E0C8B91E6F3D6600C3E49D /* RequestProviderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E0C8B81E6F3D6600C3E49D /* RequestProviderVC.swift */; };
+		D9FEC6CA1E75D4990063ED69 /* TimePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FEC6C91E75D4990063ED69 /* TimePickerVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		290618161E3A7E5800A9F1BE /* UpdateStatusTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateStatusTVC.swift; sourceTree = "<group>"; };
+		290EE8C31E2A730D00A3694E /* RequestsUsersTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsUsersTVC.swift; sourceTree = "<group>"; };
+		290EE8C51E2A734E00A3694E /* RequestsPlacesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsPlacesTVC.swift; sourceTree = "<group>"; };
+		290EE8C71E2A864300A3694E /* UserTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTVCell.swift; sourceTree = "<group>"; };
+		290EE8C91E2A868400A3694E /* UserTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTVCell.xib; sourceTree = "<group>"; };
+		290EE8CD1E2AC8ED00A3694E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		291BD3DC1E1E957600456809 /* CountriesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTVC.swift; sourceTree = "<group>"; };
+		29404C101E1DDEA5005870BB /* RegisterProviderTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterProviderTVC.swift; sourceTree = "<group>"; };
+		29404C121E1DDEF2005870BB /* RegisterCenterTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCenterTVC.swift; sourceTree = "<group>"; };
+		296500811E1C071D00E20026 /* GEBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GEBold.otf; sourceTree = "<group>"; };
+		296500831E1C539300E20026 /* APILists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APILists.swift; sourceTree = "<group>"; };
+		2974F4991E25986400514956 /* HospitalDetailTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalDetailTVC.swift; sourceTree = "<group>"; };
+		297A036E1E282E0500F86178 /* ExperiencesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperiencesTVC.swift; sourceTree = "<group>"; };
+		297A03741E2831A700F86178 /* ExperienceTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExperienceTVCell.xib; sourceTree = "<group>"; };
+		297A03761E2831E300F86178 /* ExperienceTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceTVCell.swift; sourceTree = "<group>"; };
+		297A03781E283B8F00F86178 /* AddExperienceTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExperienceTVC.swift; sourceTree = "<group>"; };
+		297A037A1E28782800F86178 /* AddHospitalTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHospitalTVC.swift; sourceTree = "<group>"; };
+		297A037C1E28783300F86178 /* AddDeviceTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeviceTVC.swift; sourceTree = "<group>"; };
+		2988454F1E2AC968002DB19F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		299198851E5FFC6D006B79F8 /* AddEventTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventTVC.swift; sourceTree = "<group>"; };
+		29AD18D11E3D4F31007EAF5C /* AddPlaceTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlaceTVC.swift; sourceTree = "<group>"; };
+		29B4F53E1E5B342900005E7D /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		29B4F5411E5B3DE500005E7D /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		29B4F5441E5B5FC000005E7D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		29B83ADB1E1FF90E00F72547 /* HospitalsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalsVC.swift; sourceTree = "<group>"; };
+		29B83ADC1E1FF90E00F72547 /* HospitalsPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalsPageVC.swift; sourceTree = "<group>"; };
+		29B83ADD1E1FF90E00F72547 /* HospitalsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalsTVC.swift; sourceTree = "<group>"; };
+		29B83AE71E1FFDF900F72547 /* CountriesCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesCVC.swift; sourceTree = "<group>"; };
+		29B83AEB1E20348400F72547 /* RequestsCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsCVC.swift; sourceTree = "<group>"; };
+		29BBA70F1E3D34080004E49B /* DeviceDetailsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDetailsTVC.swift; sourceTree = "<group>"; };
+		29BBA7111E3D4AFF0004E49B /* AddRestaurantTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRestaurantTVC.swift; sourceTree = "<group>"; };
+		29BDF5AD1E1BF9F7001CF4B7 /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
+		29BF1C581E2BFCAE00A5A8C7 /* AddQuestionTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuestionTVC.swift; sourceTree = "<group>"; };
+		29C874DB1E246E7D0091D354 /* EnquiriesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnquiriesTVC.swift; sourceTree = "<group>"; };
+		29C874DD1E246FBC0091D354 /* EnquiriesTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnquiriesTVCell.swift; sourceTree = "<group>"; };
+		29C874DF1E24703A0091D354 /* EnquiriesTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnquiriesTVCell.xib; sourceTree = "<group>"; };
+		29C874E11E249BD10091D354 /* ProfileTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTVC.swift; sourceTree = "<group>"; };
+		29C874E41E24AAB40091D354 /* StartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		29D8DFB31E227E61006E0A83 /* DevicesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesVC.swift; sourceTree = "<group>"; };
+		29D8DFB51E227E9B006E0A83 /* DevicesPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesPageVC.swift; sourceTree = "<group>"; };
+		29D8DFB91E227F03006E0A83 /* DevicesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesTVC.swift; sourceTree = "<group>"; };
+		29D8DFC01E22B546006E0A83 /* HospitalTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HospitalTVCell.xib; sourceTree = "<group>"; };
+		29D8DFC31E22B59E006E0A83 /* HospitalTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalTVCell.swift; sourceTree = "<group>"; };
+		29D8DFC51E22B5E9006E0A83 /* DeviceTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTVCell.swift; sourceTree = "<group>"; };
+		29D8DFC71E22B659006E0A83 /* DeviceTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceTVCell.xib; sourceTree = "<group>"; };
+		29D8DFC91E22DC50006E0A83 /* Api.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Api.json; sourceTree = "<group>"; };
+		29DC3AA11E1491AF0022DDB7 /* Rahma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rahma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DC3AA41E1491AF0022DDB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29DC3AB01E1491AF0022DDB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DC3AB61E14925A0022DDB7 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		29DC3AB81E1492620022DDB7 /* APIModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		29DC3AC11E1493100022DDB7 /* GELight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GELight.otf; sourceTree = "<group>"; };
+		29DC3AC31E14932A0022DDB7 /* TypesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesTVC.swift; sourceTree = "<group>"; };
+		29DC3AC41E14932A0022DDB7 /* ForgotPasswordTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordTVC.swift; sourceTree = "<group>"; };
+		29DC3AC71E14932A0022DDB7 /* RegisterPatientTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPatientTVC.swift; sourceTree = "<group>"; };
+		29DC3AC81E14932A0022DDB7 /* LoginTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTVC.swift; sourceTree = "<group>"; };
+		29DC3AD81E1493B20022DDB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29DC3ADB1E1494360022DDB7 /* AMExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMExtensions.swift; sourceTree = "<group>"; };
+		29DC3ADC1E1494360022DDB7 /* AMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMTabBarController.swift; sourceTree = "<group>"; };
+		29DC3ADD1E1494360022DDB7 /* AMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMTextField.swift; sourceTree = "<group>"; };
+		29E18CC61E351FBA00C336B7 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		29E18CC81E352D2600C336B7 /* LanguageTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageTVC.swift; sourceTree = "<group>"; };
+		29ECE0941E5C608C00406F9F /* RegisterCompanyTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCompanyTVC.swift; sourceTree = "<group>"; };
+		29ECE0961E5C60CC00406F9F /* RegisterRestaurantTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRestaurantTVC.swift; sourceTree = "<group>"; };
+		29ECE0981E5C60F000406F9F /* RegisterPlaceTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPlaceTVC.swift; sourceTree = "<group>"; };
+		29ECE09A1E5C70FB00406F9F /* DatesPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatesPickerVC.swift; sourceTree = "<group>"; };
+		A9802AC99CAFAB797ED8D979 /* Pods-Rahma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rahma.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rahma/Pods-Rahma.debug.xcconfig"; sourceTree = "<group>"; };
+		AD70E53056BA589306F8BBA4 /* Pods-Rahma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rahma.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rahma/Pods-Rahma.release.xcconfig"; sourceTree = "<group>"; };
+		D911C3511E79B40200384544 /* SearchVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVc.swift; sourceTree = "<group>"; };
+		D911C3531E79B44000384544 /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		D911C3541E79B44000384544 /* SearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCell.xib; sourceTree = "<group>"; };
+		D911C3571E79C51F00384544 /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		D927D1271E65E7030050F4FE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D97A29F31E72FD7D00F6A9AD /* RequestDriverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDriverVC.swift; sourceTree = "<group>"; };
+		D9DAE63E1E6E009E00B3CC21 /* RequestPationtVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestPationtVC.swift; sourceTree = "<group>"; };
+		D9E0C8B81E6F3D6600C3E49D /* RequestProviderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProviderVC.swift; sourceTree = "<group>"; };
+		D9FEC6C91E75D4990063ED69 /* TimePickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePickerVC.swift; sourceTree = "<group>"; };
+		E7B8AFA89AAA09EA5CDBB29A /* Pods_Rahma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rahma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29DC3A9E1E1491AE0022DDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D927D1281E65E7030050F4FE /* MessageUI.framework in Frameworks */,
+				C445B7F1CD05D222626CAC43 /* Pods_Rahma.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291BD3E01E1EABCA00456809 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				29D8DFC91E22DC50006E0A83 /* Api.json */,
+				29DC3AB61E14925A0022DDB7 /* APIHelper.swift */,
+				29DC3AB81E1492620022DDB7 /* APIModels.swift */,
+				296500831E1C539300E20026 /* APILists.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		29B83AE31E1FF91C00F72547 /* Therapy */ = {
+			isa = PBXGroup;
+			children = (
+				29B83AE71E1FFDF900F72547 /* CountriesCVC.swift */,
+				29B83ADB1E1FF90E00F72547 /* HospitalsVC.swift */,
+				29B83ADC1E1FF90E00F72547 /* HospitalsPageVC.swift */,
+				29B83ADD1E1FF90E00F72547 /* HospitalsTVC.swift */,
+				2974F4991E25986400514956 /* HospitalDetailTVC.swift */,
+			);
+			name = Therapy;
+			sourceTree = "<group>";
+		};
+		29B83AE41E1FF93700F72547 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				29D8DFB31E227E61006E0A83 /* DevicesVC.swift */,
+				29D8DFB51E227E9B006E0A83 /* DevicesPageVC.swift */,
+				29D8DFB91E227F03006E0A83 /* DevicesTVC.swift */,
+				29BBA70F1E3D34080004E49B /* DeviceDetailsTVC.swift */,
+			);
+			name = Devices;
+			sourceTree = "<group>";
+		};
+		29B83AE51E1FF96100F72547 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				29B83AEB1E20348400F72547 /* RequestsCVC.swift */,
+				290EE8C31E2A730D00A3694E /* RequestsUsersTVC.swift */,
+				290EE8C51E2A734E00A3694E /* RequestsPlacesTVC.swift */,
+				D9DAE63E1E6E009E00B3CC21 /* RequestPationtVC.swift */,
+				D9E0C8B81E6F3D6600C3E49D /* RequestProviderVC.swift */,
+				D97A29F31E72FD7D00F6A9AD /* RequestDriverVC.swift */,
+				D911C3511E79B40200384544 /* SearchVc.swift */,
+				D911C3531E79B44000384544 /* SearchCell.swift */,
+				D911C3541E79B44000384544 /* SearchCell.xib */,
+				D911C3571E79C51F00384544 /* SearchModel.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		29B83AE61E1FF98F00F72547 /* FAQS */ = {
+			isa = PBXGroup;
+			children = (
+				29C874DB1E246E7D0091D354 /* EnquiriesTVC.swift */,
+				297A036E1E282E0500F86178 /* ExperiencesTVC.swift */,
+			);
+			name = FAQS;
+			sourceTree = "<group>";
+		};
+		29C874E31E249BDC0091D354 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				29C874E11E249BD10091D354 /* ProfileTVC.swift */,
+				297A037C1E28783300F86178 /* AddDeviceTVC.swift */,
+				297A037A1E28782800F86178 /* AddHospitalTVC.swift */,
+				29BF1C581E2BFCAE00A5A8C7 /* AddQuestionTVC.swift */,
+				297A03781E283B8F00F86178 /* AddExperienceTVC.swift */,
+				29BBA7111E3D4AFF0004E49B /* AddRestaurantTVC.swift */,
+				299198851E5FFC6D006B79F8 /* AddEventTVC.swift */,
+				29AD18D11E3D4F31007EAF5C /* AddPlaceTVC.swift */,
+				290618161E3A7E5800A9F1BE /* UpdateStatusTVC.swift */,
+				29E18CC81E352D2600C336B7 /* LanguageTVC.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		29D8DFBF1E22B4D1006E0A83 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				290EE8C71E2A864300A3694E /* UserTVCell.swift */,
+				29D8DFC31E22B59E006E0A83 /* HospitalTVCell.swift */,
+				29D8DFC51E22B5E9006E0A83 /* DeviceTVCell.swift */,
+				29C874DD1E246FBC0091D354 /* EnquiriesTVCell.swift */,
+				297A03761E2831E300F86178 /* ExperienceTVCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		29D8DFC21E22B567006E0A83 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				290EE8C91E2A868400A3694E /* UserTVCell.xib */,
+				29D8DFC01E22B546006E0A83 /* HospitalTVCell.xib */,
+				29D8DFC71E22B659006E0A83 /* DeviceTVCell.xib */,
+				29C874DF1E24703A0091D354 /* EnquiriesTVCell.xib */,
+				297A03741E2831A700F86178 /* ExperienceTVCell.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		29DC3A981E1491AE0022DDB7 = {
+			isa = PBXGroup;
+			children = (
+				29DC3AA31E1491AF0022DDB7 /* Rahma */,
+				29DC3AA21E1491AF0022DDB7 /* Products */,
+				F0E32A369B69AB4091DC2FD1 /* Pods */,
+				398319310EFAF411C7701DAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29DC3AA21E1491AF0022DDB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29DC3AA11E1491AF0022DDB7 /* Rahma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29DC3AA31E1491AF0022DDB7 /* Rahma */ = {
+			isa = PBXGroup;
+			children = (
+				29DC3AA41E1491AF0022DDB7 /* AppDelegate.swift */,
+				29B4F53E1E5B342900005E7D /* Launch.storyboard */,
+				29B4F5411E5B3DE500005E7D /* Start.storyboard */,
+				29B4F5441E5B5FC000005E7D /* Main.storyboard */,
+				291BD3E01E1EABCA00456809 /* API */,
+				29DC3ACF1E1493580022DDB7 /* Start */,
+				29B83AE31E1FF91C00F72547 /* Therapy */,
+				29B83AE41E1FF93700F72547 /* Devices */,
+				29B83AE51E1FF96100F72547 /* Requests */,
+				29B83AE61E1FF98F00F72547 /* FAQS */,
+				29C874E31E249BDC0091D354 /* Profile */,
+				29D8DFBF1E22B4D1006E0A83 /* Cells */,
+				29D8DFC21E22B567006E0A83 /* Xibs */,
+				29DC3AE11E14943A0022DDB7 /* AMControls */,
+				29DC3ADA1E1493B70022DDB7 /* Support */,
+			);
+			path = Rahma;
+			sourceTree = "<group>";
+		};
+		29DC3ACF1E1493580022DDB7 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				29C874E41E24AAB40091D354 /* StartVC.swift */,
+				29DC3AC81E14932A0022DDB7 /* LoginTVC.swift */,
+				29DC3AC31E14932A0022DDB7 /* TypesTVC.swift */,
+				291BD3DC1E1E957600456809 /* CountriesTVC.swift */,
+				29ECE09A1E5C70FB00406F9F /* DatesPickerVC.swift */,
+				29DC3AC71E14932A0022DDB7 /* RegisterPatientTVC.swift */,
+				29404C101E1DDEA5005870BB /* RegisterProviderTVC.swift */,
+				29404C121E1DDEF2005870BB /* RegisterCenterTVC.swift */,
+				29ECE0941E5C608C00406F9F /* RegisterCompanyTVC.swift */,
+				29ECE0961E5C60CC00406F9F /* RegisterRestaurantTVC.swift */,
+				29ECE0981E5C60F000406F9F /* RegisterPlaceTVC.swift */,
+				29DC3AC41E14932A0022DDB7 /* ForgotPasswordTVC.swift */,
+				D9FEC6C91E75D4990063ED69 /* TimePickerVC.swift */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		29DC3ADA1E1493B70022DDB7 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				29DC3AB01E1491AF0022DDB7 /* Info.plist */,
+				29E18CC71E351FBA00C336B7 /* Localizable.strings */,
+				29BDF5AD1E1BF9F7001CF4B7 /* Countries.plist */,
+				29DC3AC11E1493100022DDB7 /* GELight.otf */,
+				296500811E1C071D00E20026 /* GEBold.otf */,
+				29DC3AD81E1493B20022DDB7 /* Assets.xcassets */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		29DC3AE11E14943A0022DDB7 /* AMControls */ = {
+			isa = PBXGroup;
+			children = (
+				29DC3ADD1E1494360022DDB7 /* AMTextField.swift */,
+				29DC3ADB1E1494360022DDB7 /* AMExtensions.swift */,
+				29DC3ADC1E1494360022DDB7 /* AMTabBarController.swift */,
+			);
+			name = AMControls;
+			sourceTree = "<group>";
+		};
+		398319310EFAF411C7701DAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D927D1271E65E7030050F4FE /* MessageUI.framework */,
+				2988454F1E2AC968002DB19F /* AVFoundation.framework */,
+				290EE8CD1E2AC8ED00A3694E /* MobileCoreServices.framework */,
+				E7B8AFA89AAA09EA5CDBB29A /* Pods_Rahma.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E32A369B69AB4091DC2FD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9802AC99CAFAB797ED8D979 /* Pods-Rahma.debug.xcconfig */,
+				AD70E53056BA589306F8BBA4 /* Pods-Rahma.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29DC3AA01E1491AE0022DDB7 /* Rahma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DC3AB31E1491AF0022DDB7 /* Build configuration list for PBXNativeTarget "Rahma" */;
+			buildPhases = (
+				11272F42C697CF58FA515B02 /* [CP] Check Pods Manifest.lock */,
+				29DC3A9D1E1491AE0022DDB7 /* Sources */,
+				29DC3A9E1E1491AE0022DDB7 /* Frameworks */,
+				29DC3A9F1E1491AE0022DDB7 /* Resources */,
+				C63A5E0D295CDBB361B53E0D /* [CP] Embed Pods Frameworks */,
+				BA89E846B710F3F6CEA55060 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rahma;
+			productName = Rahma;
+			productReference = 29DC3AA11E1491AF0022DDB7 /* Rahma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29DC3A991E1491AE0022DDB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Amr Mohamed";
+				TargetAttributes = {
+					29DC3AA01E1491AE0022DDB7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 27H5E56672;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 29DC3A9C1E1491AE0022DDB7 /* Build configuration list for PBXProject "Rahma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+			);
+			mainGroup = 29DC3A981E1491AE0022DDB7;
+			productRefGroup = 29DC3AA21E1491AF0022DDB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29DC3AA01E1491AE0022DDB7 /* Rahma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29DC3A9F1E1491AE0022DDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D911C3561E79B44000384544 /* SearchCell.xib in Resources */,
+				29DC3AC21E1493100022DDB7 /* GELight.otf in Resources */,
+				29D8DFC11E22B547006E0A83 /* HospitalTVCell.xib in Resources */,
+				29BDF5AE1E1BF9F7001CF4B7 /* Countries.plist in Resources */,
+				29E18CC51E351FBA00C336B7 /* Localizable.strings in Resources */,
+				297A03751E2831A700F86178 /* ExperienceTVCell.xib in Resources */,
+				296500821E1C071D00E20026 /* GEBold.otf in Resources */,
+				29D8DFCA1E22DC50006E0A83 /* Api.json in Resources */,
+				29B4F5451E5B5FC000005E7D /* Main.storyboard in Resources */,
+				29D8DFC81E22B659006E0A83 /* DeviceTVCell.xib in Resources */,
+				290EE8CA1E2A868400A3694E /* UserTVCell.xib in Resources */,
+				29B4F53F1E5B342900005E7D /* Launch.storyboard in Resources */,
+				29B4F5421E5B3DE500005E7D /* Start.storyboard in Resources */,
+				29C874E01E24703A0091D354 /* EnquiriesTVCell.xib in Resources */,
+				29DC3AD91E1493B20022DDB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11272F42C697CF58FA515B02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA89E846B710F3F6CEA55060 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rahma/Pods-Rahma-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63A5E0D295CDBB361B53E0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rahma/Pods-Rahma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29DC3A9D1E1491AE0022DDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DC3ACA1E14932A0022DDB7 /* ForgotPasswordTVC.swift in Sources */,
+				29DC3ADF1E1494360022DDB7 /* AMTabBarController.swift in Sources */,
+				29C874DE1E246FBC0091D354 /* EnquiriesTVCell.swift in Sources */,
+				296500841E1C539300E20026 /* APILists.swift in Sources */,
+				29404C111E1DDEA5005870BB /* RegisterProviderTVC.swift in Sources */,
+				29C874DC1E246E7D0091D354 /* EnquiriesTVC.swift in Sources */,
+				29DC3AB91E1492620022DDB7 /* APIModels.swift in Sources */,
+				29B83AE11E1FF90E00F72547 /* HospitalsTVC.swift in Sources */,
+				29DC3ADE1E1494360022DDB7 /* AMExtensions.swift in Sources */,
+				29DC3AB71E14925A0022DDB7 /* APIHelper.swift in Sources */,
+				299198861E5FFC6D006B79F8 /* AddEventTVC.swift in Sources */,
+				29DC3AA51E1491AF0022DDB7 /* AppDelegate.swift in Sources */,
+				297A036F1E282E0500F86178 /* ExperiencesTVC.swift in Sources */,
+				D911C3551E79B44000384544 /* SearchCell.swift in Sources */,
+				29B83AE01E1FF90E00F72547 /* HospitalsPageVC.swift in Sources */,
+				D9E0C8B91E6F3D6600C3E49D /* RequestProviderVC.swift in Sources */,
+				D9FEC6CA1E75D4990063ED69 /* TimePickerVC.swift in Sources */,
+				29ECE09B1E5C70FB00406F9F /* DatesPickerVC.swift in Sources */,
+				29BF1C591E2BFCAE00A5A8C7 /* AddQuestionTVC.swift in Sources */,
+				297A03771E2831E300F86178 /* ExperienceTVCell.swift in Sources */,
+				D911C3521E79B40200384544 /* SearchVc.swift in Sources */,
+				29C874E51E24AAB40091D354 /* StartVC.swift in Sources */,
+				D9DAE63F1E6E009E00B3CC21 /* RequestPationtVC.swift in Sources */,
+				297A037B1E28782800F86178 /* AddHospitalTVC.swift in Sources */,
+				29E18CC91E352D2600C336B7 /* LanguageTVC.swift in Sources */,
+				29DC3AE01E1494360022DDB7 /* AMTextField.swift in Sources */,
+				29B83AEC1E20348400F72547 /* RequestsCVC.swift in Sources */,
+				290EE8C41E2A730D00A3694E /* RequestsUsersTVC.swift in Sources */,
+				D911C3581E79C51F00384544 /* SearchModel.swift in Sources */,
+				29DC3ACD1E14932A0022DDB7 /* RegisterPatientTVC.swift in Sources */,
+				290618171E3A7E5800A9F1BE /* UpdateStatusTVC.swift in Sources */,
+				29C874E21E249BD10091D354 /* ProfileTVC.swift in Sources */,
+				297A037D1E28783300F86178 /* AddDeviceTVC.swift in Sources */,
+				290EE8C81E2A864300A3694E /* UserTVCell.swift in Sources */,
+				29ECE0951E5C608C00406F9F /* RegisterCompanyTVC.swift in Sources */,
+				29DC3AC91E14932A0022DDB7 /* TypesTVC.swift in Sources */,
+				29D8DFBA1E227F03006E0A83 /* DevicesTVC.swift in Sources */,
+				297A03791E283B8F00F86178 /* AddExperienceTVC.swift in Sources */,
+				29BBA7101E3D34080004E49B /* DeviceDetailsTVC.swift in Sources */,
+				29404C131E1DDEF2005870BB /* RegisterCenterTVC.swift in Sources */,
+				29D8DFC41E22B59E006E0A83 /* HospitalTVCell.swift in Sources */,
+				291BD3DD1E1E957600456809 /* CountriesTVC.swift in Sources */,
+				29B83ADF1E1FF90E00F72547 /* HospitalsVC.swift in Sources */,
+				29BBA7121E3D4AFF0004E49B /* AddRestaurantTVC.swift in Sources */,
+				29B83AE81E1FFDF900F72547 /* CountriesCVC.swift in Sources */,
+				2974F49A1E25986400514956 /* HospitalDetailTVC.swift in Sources */,
+				29ECE0991E5C60F000406F9F /* RegisterPlaceTVC.swift in Sources */,
+				29D8DFB41E227E61006E0A83 /* DevicesVC.swift in Sources */,
+				29DC3ACE1E14932A0022DDB7 /* LoginTVC.swift in Sources */,
+				290EE8C61E2A734E00A3694E /* RequestsPlacesTVC.swift in Sources */,
+				29ECE0971E5C60CC00406F9F /* RegisterRestaurantTVC.swift in Sources */,
+				D97A29F41E72FD7D00F6A9AD /* RequestDriverVC.swift in Sources */,
+				29AD18D21E3D4F31007EAF5C /* AddPlaceTVC.swift in Sources */,
+				29D8DFB61E227E9B006E0A83 /* DevicesPageVC.swift in Sources */,
+				29D8DFC61E22B5E9006E0A83 /* DeviceTVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29E18CC71E351FBA00C336B7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E18CC61E351FBA00C336B7 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29DC3AB11E1491AF0022DDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29DC3AB21E1491AF0022DDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29DC3AB41E1491AF0022DDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9802AC99CAFAB797ED8D979 /* Pods-Rahma.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27H5E56672;
+				INFOPLIST_FILE = Rahma/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAmrMohamed.TaahelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29DC3AB51E1491AF0022DDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD70E53056BA589306F8BBA4 /* Pods-Rahma.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27H5E56672;
+				INFOPLIST_FILE = Rahma/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iAmrMohamed.TaahelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29DC3A9C1E1491AE0022DDB7 /* Build configuration list for PBXProject "Rahma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DC3AB11E1491AF0022DDB7 /* Debug */,
+				29DC3AB21E1491AF0022DDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DC3AB31E1491AF0022DDB7 /* Build configuration list for PBXNativeTarget "Rahma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DC3AB41E1491AF0022DDB7 /* Debug */,
+				29DC3AB51E1491AF0022DDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29DC3A991E1491AE0022DDB7 /* Project object */;
+}

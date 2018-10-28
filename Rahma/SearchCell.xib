@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="437" id="KGk-i7-Jjw" customClass="SearchCell" customModule="Rahma" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="460" height="437"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="460" height="436"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n0K-eh-QTa">
+                        <rect key="frame" x="0.0" y="0.0" width="460" height="437"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JMI-EZ-s3G">
+                                <rect key="frame" x="297" y="25" width="143" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="102" id="86w-M1-8fV"/>
+                                    <constraint firstAttribute="width" constant="143" id="adI-ub-iRz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1E-IP-gil">
+                                <rect key="frame" x="10" y="50" width="191" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="KgI-f3-HoN"/>
+                                    <constraint firstAttribute="width" constant="191" id="O9c-Ym-DeP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v51-tC-gUT">
+                                <rect key="frame" x="261" y="167" width="191" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="2AS-ti-drD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4tl-BR-eBs">
+                                <rect key="frame" x="10" y="170" width="191" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="1aI-bs-ePI"/>
+                                    <constraint firstAttribute="height" constant="45" id="AS2-i7-Ljt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17449137570000001" green="0.65861332419999996" blue="0.71840971710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f1E-IP-gil" firstAttribute="leading" secondItem="n0K-eh-QTa" secondAttribute="leading" constant="10" id="Fpn-OA-2EK"/>
+                            <constraint firstAttribute="trailing" secondItem="v51-tC-gUT" secondAttribute="trailing" constant="8" id="GWx-fe-K0S"/>
+                            <constraint firstItem="4tl-BR-eBs" firstAttribute="leading" secondItem="n0K-eh-QTa" secondAttribute="leading" constant="10" id="LT6-EN-87o"/>
+                            <constraint firstItem="f1E-IP-gil" firstAttribute="top" secondItem="n0K-eh-QTa" secondAttribute="top" constant="50" id="T97-9O-Ipr"/>
+                            <constraint firstItem="4tl-BR-eBs" firstAttribute="top" secondItem="f1E-IP-gil" secondAttribute="bottom" constant="75" id="bOa-so-jzv"/>
+                            <constraint firstItem="v51-tC-gUT" firstAttribute="top" secondItem="JMI-EZ-s3G" secondAttribute="bottom" constant="40" id="bXx-Po-P2g"/>
+                            <constraint firstItem="v51-tC-gUT" firstAttribute="leading" secondItem="4tl-BR-eBs" secondAttribute="trailing" constant="60" id="hSS-ZZ-dxj"/>
+                            <constraint firstItem="JMI-EZ-s3G" firstAttribute="top" secondItem="n0K-eh-QTa" secondAttribute="top" constant="25" id="rhp-l9-tBC"/>
+                            <constraint firstAttribute="trailing" secondItem="JMI-EZ-s3G" secondAttribute="trailing" constant="20" id="xbN-7t-nOJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="n0K-eh-QTa" secondAttribute="trailing" id="0fX-6F-Lrh"/>
+                    <constraint firstItem="n0K-eh-QTa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="A6X-mT-YOd"/>
+                    <constraint firstItem="n0K-eh-QTa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="EBC-VF-NHH"/>
+                    <constraint firstAttribute="bottom" secondItem="n0K-eh-QTa" secondAttribute="bottom" id="z3U-0z-lUL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="CountryLabel" destination="4tl-BR-eBs" id="iag-eg-82r"/>
+                <outlet property="NameLabel" destination="f1E-IP-gil" id="0pL-5a-su8"/>
+                <outlet property="PhoneLabel" destination="v51-tC-gUT" id="tij-lF-zTm"/>
+                <outlet property="SearchImage" destination="JMI-EZ-s3G" id="wdE-UJ-t3n"/>
+            </connections>
+            <point key="canvasLocation" x="80" y="55.5"/>
+        </tableViewCell>
+    </objects>
+</document>

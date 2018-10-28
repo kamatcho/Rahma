@@ -1,0 +1,81 @@
+PODS:
+  - Alamofire (4.0.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - CWStatusBarNotification (2.3.5)
+  - FBSDKCoreKit (4.16.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.16.0):
+    - FBSDKCoreKit
+  - FLAnimatedImage (1.0.12)
+  - HanekeSwift (0.10.1)
+  - KMPlaceholderTextView (1.3.0)
+  - NVActivityIndicatorView (3.0)
+  - NYTPhotoViewer (1.2.0):
+    - NYTPhotoViewer/AnimatedGifSupport (= 1.2.0)
+    - NYTPhotoViewer/Core (= 1.2.0)
+  - NYTPhotoViewer/AnimatedGifSupport (1.2.0):
+    - FLAnimatedImage (~> 1.0.12)
+    - NYTPhotoViewer/Core
+  - NYTPhotoViewer/Core (1.2.0)
+  - SVProgressHUD (2.0.3)
+  - SwiftValidator (4.0.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - CWStatusBarNotification
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift.git`, branch `feature/swift-3`)
+  - KMPlaceholderTextView
+  - NVActivityIndicatorView
+  - NYTPhotoViewer
+  - SVProgressHUD
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `swift-3`)
+  - SwiftyJSON (from `https://github.com/BaiduHiDeviOS/SwiftyJSON.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: feature/swift-3
+    :git: https://github.com/Haneke/HanekeSwift.git
+  SwiftValidator:
+    :branch: swift-3
+    :git: https://github.com/jpotts18/SwiftValidator.git
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 1157a124ec699f4ad926cb054f1d0bfce88ae7a9
+    :git: https://github.com/Haneke/HanekeSwift.git
+  SwiftValidator:
+    :commit: 5721426cbcffef7efc3b27a9077b9e9451ac5574
+    :git: https://github.com/jpotts18/SwiftValidator.git
+  SwiftyJSON:
+    :commit: de5dc3b1b421805769590d331178551bbb0e5733
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
+  FBSDKCoreKit: 7a6baaed4a2b2a244ba253346713bdbc74df135b
+  FBSDKLoginKit: 9a514a55a7d05190f64d4ef09502737588b5b561
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  KMPlaceholderTextView: 2bbcd19a273648a80a61e1e48f9743a24d8930e3
+  NVActivityIndicatorView: 81953b5e65093ba79edf4fe7268e002039ca5268
+  NYTPhotoViewer: 323217e4590a1586eb3c9674b3fefb0fb8b57896
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+  SwiftyJSON: 6118fb49d7519c4d31a0c1f3d5af936e9047b556
+
+PODFILE CHECKSUM: a7fec3159c73354f42724459ea33528da513dd9e
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,113 @@
+/* 
+  Localizable.strings
+  Rahma
+
+  Created by Amr Mohamed on 1/22/17.
+  Copyright © 2017 Amr Mohamed. All rights reserved.
+*/
+
+"Chalkboard SE" = "GE SS";
+
+"Error" = "خطأ";
+
+"Open Camera" = "إفتح الكاميرا" ;
+
+"Choose Photo" = "إختر من الصور" ;
+
+"Add" = "أضف" ;
+
+"Free" = "مجاني";
+
+"Drivers" = "السائقين";
+
+"Partners" = "المرافقين";
+
+"Therapists" = "المعالجين";
+
+"Equiped Cars" = "سيارات مجهزة";
+
+"Entertainments" = "الملاهي";
+
+"Resturants" = "المطاعم";
+
+"Male" = "ذكر";
+
+"Female" = "مؤنث";
+
+"Other" = "أخري";
+
+"Autism Specialist" = "";
+
+"Nursing Specialist" = "";
+
+"Teaching Specialist" = "";
+
+"Physiotherapist Specialist" = "";
+
+"Functional Cure Specialist" = "";
+
+"Addressing Speech Specialist" = "";
+
+"Therapist" = "معالج";
+
+"Partner" = "مرافق";
+
+"Driver" = "سائق";
+
+"Government Hospital" = "مستشفي حكومية";
+
+"Private Hospital" = "مستشفي خاصة";
+
+"Treatment Center" = "مركز علاج";
+
+"Devices Company" = "شركة أجهزة";
+
+"Entertainment Places" = "ملاهي خاصة";
+
+"Entertainment Resturants" = "مطاعم خاصة";
+
+"No Status" = "لا يوجد حالة";
+
+"Restaurants" = "";
+
+"Coffe Shop" = "";
+
+"Locale" = "محلي";
+
+"Delivery" = "سفري";
+
+"Locale & Delivery" = "محلي و سفري";
+
+"Mens" = "رجالي";
+
+"Womens" = "حريمي";
+
+"Families" = "عائلات";
+
+"All People" = "جميع الأشخاص";
+
+"Entertainments" = "ترفيهي";
+
+"Educations" = "تعليمي";
+
+"Shope" = "محل";
+
+"Center" = "مركز";
+
+"Garden" = "حديقة";
+
+"Logout" = "تسجيل الخروج";
+
+"Are you sure you want to logout" = "";
+
+"Cancel" = "إلغاء";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
+
+"" = "";
